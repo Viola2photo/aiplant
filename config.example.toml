@@ -1,0 +1,35 @@
+# Copy to config.toml and edit. config.toml is git-ignored.
+
+[general]
+channel_lang = "zh-TW"          # zh-TW now; later create a separate config for the English channel
+timezone = "Asia/Taipei"
+data_dir = "data"               # sqlite db + intermediate assets
+out_dir = "out"                 # finished packages ready for upload
+
+[cadence]
+shorts_per_day = 1              # ramp 1 -> 2 -> 3 as quality holds (see docs/PLAN.md)
+short_times = ["12:00", "18:00", "21:00"]
+long_every_days = 3
+long_time = "19:30"
+anchor_date = ""                # YYYY-MM-DD; first long video day. Empty = first plan start date.
+
+[platforms]
+short = ["youtube", "facebook", "instagram", "threads"]
+long = ["youtube", "facebook"]  # Instagram/Threads add little for long videos
+
+[providers]
+# "mock" works offline with no API keys (placeholder content). "claude" uses the Anthropic API.
+script = "mock"                 # mock | claude
+factcheck = "mock"              # mock | claude
+tts = "mock"                    # mock | (elevenlabs / azure: not implemented yet)
+visuals = "mock"                # mock | (stock / veo / kling: not implemented yet)
+
+[claude]
+model = "claude-sonnet-5-5"
+max_tokens = 4096
+
+[render]
+short_size = "1080x1920"
+long_size = "1920x1080"
+fps = 24
+burn_subtitles = false          # false: write a sidecar .srt (upload as captions)

@@ -1,0 +1,21 @@
+# pillar|topic   (pillars: growth, odd, symbiosis, local, myth)
+growth|豆子從發芽到長出第一片葉子的縮時
+growth|牽牛花一夜之間如何攀爬與纏繞
+growth|向日葵為什麼會追著太陽轉
+growth|竹筍破土而出的生長速度
+odd|捕蠅草如何判斷獵物並關上夾子
+odd|絞殺榕如何殺死宿主樹
+odd|含羞草為什麼一碰就閉合
+odd|活石頭植物如何偽裝成石頭
+symbiosis|樹木之間的菌根網路如何互相傳遞養分
+symbiosis|無花果與榕小蜂一億年的共生關係
+symbiosis|豆科植物與根瘤菌如何固氮
+symbiosis|森林裡的樹木如何用氣味互相警告
+local|台灣特有種：台灣杉為何被稱為活化石
+local|阿里山櫻花的花期與開花條件
+local|台灣原生蕨類為何在潮濕森林特別多
+local|紅樹林如何在鹹水中生存
+myth|仙人掌真的不用澆水嗎
+myth|竹子一天真的能長一公尺嗎
+myth|植物聽古典音樂會長得更好嗎
+myth|枯葉掉落是因為樹木死了嗎
